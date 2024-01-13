@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" href="/assets/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <img src="assets/favicon-32x32.png" alt="img">
+        <p>Task Trail</p>
+    </nav>
+    <div id="todo-app">
+        <div id="addtask">
+            <input type="text" id="task-input" placeholder="Enter task">
+            <button id="add-button">Add Task</button>
+        </div>
+        <div id="list">
+            <div id="displaytask">
+                <h2>Task List</h2>
+                <ul class="li" id ="task-list"></ul>
+            </div>
+            <div id="completedtasks">
+                <h2>Completed Tasks</h2>
+                <ul class="li2" id="completed"></ul>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Copyright © 2024</p>
+        <p>All rights reserved @SuhaniGarud</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
